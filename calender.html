@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calander</title>
+    <style>
+     .calender{
+        display: grid;
+     
+        grid-template-columns: repeat(7,1fr);
+        grid-template-rows: 30px repeat(6, 75px);
+        row-gap: 15px;
+        column-gap: 10px;
+     }   
+
+     .date{
+        background-color: cadetblue;
+        /* height: 80px; */
+        border-radius: 3px;
+       color: aliceblue;
+       font-weight: 700;
+       font-size: larger;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+     }
+     .other-month{
+        background-color: lightgray;
+        color: rgba(0, 0, 0, 0.502);
+     }
+     .day{
+        background-color: bisque;
+        border:2px solid lightslategray;
+        border-radius: 7px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+       font-size: larger;
+
+     }
+    </style>
+</head>
+<body>
+    <div>
+        <div class="calender">
+            <div class="day">S</div>
+            <div class="day">M</div>
+            <div class="day">T</div>
+            <div class="day">W</div>
+            <div class="day">T</div>
+            <div class="day">F</div>
+            <div class="day">S</div>
+            <div class="date other-month">day-30</div>
+            <div class="date other-month">day-31</div>
+            <div class="date">day-1</div>
+            <div class="date">day-2</div>
+            <div class="date">day-3</div>
+            <div class="date">day-4</div>
+            <div class="date">day-5</div>
+            <div class="date">day-6</div>
+            <div class="date">day-7</div>
+            <div class="date">day-8</div>
+            <div class="date">day-9</div>
+            <div class="date">day-10</div>
+            <div class="date">day-11</div>
+            <div class="date">day-12</div>
+            <div class="date">day-13</div>
+            <div class="date">day-14</div>
+            <div class="date">day-15</div>
+            <div class="date">day-16</div>
+            <div class="date">day-17</div>
+            <div class="date">day-18</div>
+            <div class="date">day-19</div>
+            <div class="date">day-20</div>
+            <div class="date">day-21</div>
+            <div class="date">day-22</div>
+            <div class="date">day-23</div>
+            <div class="date">day-24</div>
+            <div class="date">day-25</div>
+            <div class="date">day-26</div>
+            <div class="date">day-27</div>
+            <div class="date">day-28</div>
+            <div class="date">day-29</div>
+            <div class="date">day-30</div>
+            <div class="date other-month">day-01</div>
+            <div class="date other-month">day-02</div>
+            <div class="date other-month">day-03</div>
+            
+        </div>
+    </div>
+</body>
+</html>
